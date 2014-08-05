@@ -18,4 +18,4 @@ def index():
 def generate_error():
 	raise Exception("dummy exception")
     
-app.run(debug=True)
+app.run()
